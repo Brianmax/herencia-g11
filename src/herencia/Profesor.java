@@ -15,4 +15,12 @@ public class Profesor extends Persona {
     public void setSalario(float salario) {
         this.salario = salario;
     }
+
+    @Override
+    public void imprimir() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("Correo: " + correo);
+        System.out.println("Salario: " + salario);
+    }
 }

@@ -34,4 +34,10 @@ public class Persona {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
+
+    public void imprimir() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("Correo: " + correo);
+    }
 }
