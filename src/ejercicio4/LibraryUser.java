@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class LibraryUser {
     private String username;
     private String userId;
-    private ArrayList<LibraryItem> items;
+    private ArrayList<LibraryItem> loanedItems;
     private boolean estado;
 
     public LibraryUser(String username, String userId) {
         this.username = username;
         this.userId = userId;
-        items = new ArrayList<>();
+        loanedItems = new ArrayList<>();
         estado = true;
     }
 
@@ -31,11 +31,11 @@ public class LibraryUser {
         this.userId = userId;
     }
 
-    public ArrayList<LibraryItem> getItems() {
-        return items;
+    public ArrayList<LibraryItem> getLoanedItems() {
+        return loanedItems;
     }
 
-    public void setItems(ArrayList<LibraryItem> items) {
-        this.items = items;
+    public void setLoanedItems(ArrayList<LibraryItem> loanedItems) {
+        this.loanedItems = loanedItems;
     }
 }
