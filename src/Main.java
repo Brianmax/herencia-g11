@@ -22,5 +22,11 @@ public class Main {
         usuario.mostrarUsuario();
         usuario2.mostrarUsuario();
 
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+
+        ArrayList<Usuario> usuarios = new ArrayList<>();
+        usuarios.add(usuario);
+
     }
 }
