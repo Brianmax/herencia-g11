@@ -4,14 +4,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Punto2D<Integer> punto2D = new Punto2D<>(50, 50);
-        Punto2D<Integer> punto2D2 = new Punto2D<>(5, 2);
+        ListaGenerica<Double> elementos = new ListaGenerica<>();
 
-        Punto2D<Float> floatPunto2D = new Punto2D<>(23.23f, 23.2f);
+        elementos.add(29.3);
+        elementos.add(33.3);
+        elementos.add(12.3);
+        elementos.add(94.3);
+        elementos.add(6.3);
+        elementos.add(7.3);
 
-        Punto2D<String> stringPunto2D = new Punto2D<>("hola", "amigo");
-
-        ArrayList<Integer> list = new ArrayList<>();
+        System.out.println(elementos.get(0));
 
     }
 }
